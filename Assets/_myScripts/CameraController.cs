@@ -14,12 +14,13 @@ public class CameraController : MonoBehaviour
 
     public float pitch = 2f;
 
-    //TODO: rotating camera is not suiting me right now, decide at other levels if this functionality is helpful
+    //TODO: rotating camera is not ideal yet. Return here for future levels of game.
     //public float yawSpeed = 100f;
 
     //public float currentYaw = 0f;
 
     private float currentZoom = 10f;
+ 
 
     void Update()
     {
