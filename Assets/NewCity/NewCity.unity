@@ -310,7 +310,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
   m_LocalRotation: {x: 0.18702105, y: -0.5051284, z: 0.82448673, w: -0.17346519}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.945, y: 0, z: 0}
   m_LocalScale: {x: 0.48644, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -329,11 +329,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 209345588}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.30649644
   m_Height: 2.4236073
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.39, z: 0}
 --- !u!1 &284512443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 1d7f02b236186d449b22b058b16a98ee,
@@ -1051,7 +1051,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4596490467258760, guid: cd857b3f0ad8f4705a089bff1287fa30, type: 2}
       propertyPath: m_LocalScale.y
-      value: 12
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd857b3f0ad8f4705a089bff1287fa30, type: 2}
@@ -1261,6 +1261,36 @@ Prefab:
     - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
         type: 2}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: BoundsOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: raceAnimationControllers.defaultAnimationController
+      value: 
+      objectReference: {fileID: 9100000, guid: 1fdf08a1ffccf4f51806c1b1cda2d0b2, type: 2}
+    - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: previewColor.r
+      value: 0.7735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: previewColor.g
+      value: 0.25907797
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234454601946506, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: previewColor.b
+      value: 0.25907797
+      objectReference: {fileID: 0}
+    - target: {fileID: 143350220808160514, guid: 33d3df8f0492d4233abb17c4769ce6fc,
+        type: 2}
+      propertyPath: m_Center.y
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
