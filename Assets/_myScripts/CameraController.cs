@@ -22,8 +22,8 @@ public class CameraController : MonoBehaviour
     private void Update()
     {
         moveVector = view.position + initialOffset;
-        moveVector.x = 0;
-        moveVector.y = Mathf.Clamp(moveVector.y, 3, 5);
+        //moveVector.x = 0;
+        //moveVector.y = Mathf.Clamp(moveVector.y, 3, 5);
 
         if (transition > 1.0f)
         {
