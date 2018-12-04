@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 //New Camera
-//TODO: There is a bug with the camera rotation. The camera's tranform rotation on the y axis is -180 until 0.7 seconds, then immediately switches and remains at 0 for the continuation of the game
 public class CameraController : MonoBehaviour
 {
     private Transform view; //this is a new field
@@ -17,15 +14,13 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         view = GameObject.FindGameObjectWithTag("Player").transform;
-        initialOffset = transform.position;
-        //initialOffset = transform.position - view.position;
+        initialOffset = transform.position - view.position;
     }
 
     private void Update()
     {
         moveVector = view.position + initialOffset;
-        //moveVector.x = 0;
-        //moveVector.y = Mathf.Clamp(moveVector.y, 3, 5);
+        moveVector.x = 0;
 
         if (transition > 1.0f)
         {
@@ -39,9 +34,6 @@ public class CameraController : MonoBehaviour
             transform.LookAt(view.position + Vector3.up);
 
         }
-
-
-
     }
 }
 
