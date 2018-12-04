@@ -9,8 +9,9 @@ public class StreetSpawner : MonoBehaviour {
     private Transform playerTransform;
     private float spawnZ = -24.0f; //this will will cause a tile to spawn behind the player so that the user's view is not empty at first
     private float streetTileLength = 24.0f;
-    private float safeZone = 15.0f;
+    private float safeZone = 24.0f;
     private int numTilesOnScreen = 7;//this may be adjusted based on camera view during testing
+    private int prevStreetIndex = 0;
 
     private List<GameObject> activeTiles;
 
@@ -22,7 +23,15 @@ public class StreetSpawner : MonoBehaviour {
 
         for (int i = 0; i < numTilesOnScreen; i++)
         {
-            SpawnTile();
+            if (i < 3) 
+            {
+                SpawnTile(0);
+            } 
+            else 
+            {
+                SpawnTile();
+            }
+
         }
     }
 	
@@ -36,10 +45,17 @@ public class StreetSpawner : MonoBehaviour {
         }
 	}
 
-    private void SpawnTile(int prefabIndex = -1) //default index for tiles to spawn
+    private void SpawnTile(int prefabIndex = -1) //default index for tiles to spawn will be a random
     {
         GameObject go;
-        go = Instantiate(streetTilePrefabs[0] as GameObject);
+        if(prefabIndex == -1) 
+        {
+            go = Instantiate(streetTilePrefabs[RandomStreetIndex()]) as GameObject;
+        } 
+        else 
+        {
+            go = Instantiate(streetTilePrefabs[prefabIndex]) as GameObject;
+        }
         go.transform.SetParent(transform);//grabs reference to our tile being created and specifies that the parent is now the StreetManager object in the hiearchy
         go.transform.position = Vector3.forward * spawnZ;
         spawnZ += streetTileLength;
@@ -49,5 +65,21 @@ public class StreetSpawner : MonoBehaviour {
     private void DeleteTile(){
         Destroy (activeTiles[0]);
         activeTiles.RemoveAt(0);
+    }
+
+    private int RandomStreetIndex()
+    {
+        if (streetTilePrefabs.Length <= 1)
+        {
+            return 0;
+        }
+
+        int randomIndex = prevStreetIndex;
+        while (randomIndex == prevStreetIndex)
+        {
+            randomIndex = Random.Range (0, streetTilePrefabs.Length);
+        }
+        prevStreetIndex = randomIndex;
+        return randomIndex;
     }
 }
