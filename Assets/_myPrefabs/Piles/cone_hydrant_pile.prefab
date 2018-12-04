@@ -58,7 +58,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4716430834214800}
-  - component: {fileID: 65371493708130728}
+  - component: {fileID: 65530887622685658}
   m_Layer: 0
   m_Name: cone_hydrant_pile
   m_TagString: Untagged
@@ -426,7 +426,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5199308, y: 0.49368173, z: 0.9557104}
   m_Center: {x: 0.04039463, y: -0.00000017966482, z: 0.4778551}
---- !u!65 &65371493708130728
+--- !u!65 &65530887622685658
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
