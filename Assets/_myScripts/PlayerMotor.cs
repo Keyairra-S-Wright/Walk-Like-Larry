@@ -42,4 +42,9 @@ public class PlayerMotor : MonoBehaviour {
 
         controller.Move(moveVector * Time.deltaTime);
 	}
+
+    public void SetSpeed(int speedometer)
+    {
+        speed = 5.0f + speedometer;
+    }
 }
