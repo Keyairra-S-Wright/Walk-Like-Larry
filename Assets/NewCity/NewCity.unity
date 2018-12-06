@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   streetTilePrefabs:
   - {fileID: 1819731460806388, guid: 16718cf4db6c145d19473c650f083071, type: 2}
-  - {fileID: 1679224712496362, guid: a47280c07cc094718931af31936c7bd3, type: 2}
+  - {fileID: 1112721039659648, guid: 96ed8ec5c5c2c4aef935d8ace02ea05f, type: 2}
   - {fileID: 1731289278887788, guid: 9c15746c01595454a9c20f6d5472e0e0, type: 2}
 --- !u!4 &2019562366
 Transform:
