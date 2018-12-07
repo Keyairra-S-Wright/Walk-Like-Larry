@@ -37,5 +37,5 @@ sysinfo.txt
 *.unitypackage
 
 # Assets
-*.meta
+*.cs.meta
 *.png
