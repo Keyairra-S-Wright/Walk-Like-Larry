@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class Timer : MonoBehaviour {
 
     public Text timerText;
@@ -47,6 +49,6 @@ public class Timer : MonoBehaviour {
         difficultyLevel++;
 
         GetComponent<PlayerMotor>().SetSpeed(difficultyLevel);
-        Debug.Log(difficultyLevel);
+        Debug.Log("Here is the difficulty level in Timer component:" + difficultyLevel);
     }
 }
