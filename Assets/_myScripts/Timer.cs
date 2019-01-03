@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-
-
 public class Timer : MonoBehaviour {
 
+    private float score = 0.0f;
+
     public Text timerText;
+    public LossMenu lossMenu;
+
     private float startTime;
+
+    private bool hasLost = false;
 
     // allow game to have increasing difficulty as time passes
     private int difficultyLevel = 1;
     private int maxDifficultyLevel = 10;
     private int scoreToNextLevel = 10;
-
-    private bool hasLost = false;
 
     void Start () {
         startTime = Time.time;
@@ -27,7 +29,7 @@ public class Timer : MonoBehaviour {
             return;
         }
 
-        float score = Time.time - startTime * difficultyLevel;
+        score = Time.time + startTime * difficultyLevel;
 
         if (score >= scoreToNextLevel)
         {
@@ -63,5 +65,6 @@ public class Timer : MonoBehaviour {
     public void OnLoss()
     {
         hasLost = true;
+        lossMenu.ToggleLossMenu(score);
     }
 }

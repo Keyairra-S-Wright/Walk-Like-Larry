@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 65214576696840042}
   m_Layer: 0
   m_Name: collider1
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 65167926879021884}
   m_Layer: 0
   m_Name: collider4
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 65833882087619928}
   m_Layer: 0
   m_Name: collider3
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1816,7 +1816,7 @@ GameObject:
   - component: {fileID: 65764811192102542}
   m_Layer: 0
   m_Name: wood_barrier_horizontal
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2598,7 +2598,7 @@ GameObject:
   - component: {fileID: 65920951259717480}
   m_Layer: 0
   m_Name: collider2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

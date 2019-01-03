@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic; //necessary to use the list types
+﻿using System.Collections.Generic; //necessary to use the list types
 using UnityEngine;
 
 public class StreetSpawner : MonoBehaviour {
