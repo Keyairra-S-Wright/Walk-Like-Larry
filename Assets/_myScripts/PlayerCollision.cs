@@ -3,13 +3,9 @@
 
 public class PlayerCollision : MonoBehaviour {
 
-    void OnCollisionEnter(Collision collisionInfo)
+    void OnCollisionEnter()
     {
-        if (collisionInfo.collider.tag != "Street"){
-            Debug.Log("Larry ran into something");
-
-            FindObjectOfType<GameManagement>().EndGame();
-        }
+        Debug.Log("Larry Hit Something <-- from PlayerCollision.cs");
 
     }
 

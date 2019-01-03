@@ -13,12 +13,20 @@ public class Timer : MonoBehaviour {
     private int maxDifficultyLevel = 10;
     private int scoreToNextLevel = 10;
 
+    private bool hasLost = false;
+
     void Start () {
         startTime = Time.time;
 	}
 	
 	
 	void Update () {
+
+        if(hasLost)
+        {
+            return;
+        }
+
         float score = Time.time - startTime * difficultyLevel;
 
         if (score >= scoreToNextLevel)
@@ -50,5 +58,10 @@ public class Timer : MonoBehaviour {
 
         GetComponent<PlayerMotor>().SetSpeed(difficultyLevel);
         Debug.Log("Here is the difficulty level in Timer component:" + difficultyLevel);
+    }
+
+    public void OnLoss()
+    {
+        hasLost = true;
     }
 }
