@@ -29,7 +29,8 @@ public class Timer : MonoBehaviour {
             return;
         }
 
-        score = Time.time + startTime * difficultyLevel;
+        score = (Time.time - startTime) * difficultyLevel;
+
 
         if (score >= scoreToNextLevel)
         {
