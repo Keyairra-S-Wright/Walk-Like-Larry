@@ -67,7 +67,11 @@ public class Timer : MonoBehaviour {
     public void OnLoss()
     {
         hasLost = true;
-        PlayerPrefs.SetFloat("Highscore", score);//saves high school to devices registry
+        if(PlayerPrefs.GetFloat("Highscore") < score)
+        {
+            PlayerPrefs.SetFloat("Highscore", score);//saves high school to devices registry
+        }
+           
         lossMenu.ToggleLossMenu(score);
     }
 }
