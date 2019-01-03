@@ -3,13 +3,9 @@
 
 public class PlayerCollision : MonoBehaviour {
 
-    void OnCollisionEnter(Collision collisionInfo)
+    void OnCollisionEnter()
     {
-        if (collisionInfo.collider.tag == "Hydrant"){
-            Debug.Log("Larry ran into a hydrant");
-
-            FindObjectOfType<GameManagement>().EndGame();
-        }
+        Debug.Log("Larry Hit Something <-- from PlayerCollision.cs");
 
     }
 

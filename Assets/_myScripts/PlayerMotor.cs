@@ -10,6 +10,8 @@ public class PlayerMotor : MonoBehaviour {
 
     private float animationDuration = 3.5f;
 
+    private bool lostGame = false;
+
     // Use this for initialization
     void Start () {
         controller = GetComponent<CharacterController>();
@@ -17,6 +19,12 @@ public class PlayerMotor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (lostGame)
+        {
+            return;
+        }
+
         if(Time.time < animationDuration)
         {
             controller.Move(Vector3.forward * speed * Time.deltaTime);
@@ -42,4 +50,25 @@ public class PlayerMotor : MonoBehaviour {
 
         controller.Move(moveVector * Time.deltaTime);
 	}
+
+    public void SetSpeed(int speedometer)
+    {
+        speed = 5.0f + speedometer;
+    }
+
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "Distraction")
+            Lose();
+    }
+
+    private void Lose() 
+    {
+        lostGame = true;
+        Debug.Log("Loser");
+        GetComponent<Timer>().OnLoss();
+    }
+
+   
 }
