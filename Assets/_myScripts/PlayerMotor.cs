@@ -16,6 +16,8 @@ public class PlayerMotor : MonoBehaviour {
 
     private bool lostGame = false;
 
+    public AudioSource soundtrack;
+
     // Use this for initialization
     void Start () {
         controller = GetComponent<CharacterController>();
@@ -40,6 +42,7 @@ public class PlayerMotor : MonoBehaviour {
         //Check to see if Larry character is on the floor or not
         if(controller.isGrounded) 
         {
+            //soundtrack.Play();
             verticalVelocity = -0.5f;
         }
         else
@@ -48,8 +51,22 @@ public class PlayerMotor : MonoBehaviour {
         }
 
        
-        //Moves character Left and Right
+        //Moves character Left and Right on Laptop
         moveVector.x = Input.GetAxisRaw("Horizontal") * speed;
+
+        if(Input.GetMouseButton(0))
+        {
+            //Checks to see if screens are touched on the right side of the screen
+            if(Input.mousePosition.x > Screen.width/2) 
+            {
+                moveVector.x = speed;
+            }
+            else 
+            {
+                moveVector.x = -speed;
+            }
+        }
+
         moveVector.y = verticalVelocity;
         moveVector.z = speed;
 
@@ -71,6 +88,7 @@ public class PlayerMotor : MonoBehaviour {
     private void Lose() 
     {
         lostGame = true;
+        soundtrack.Stop();
         Debug.Log("Loser");
         GetComponent<Timer>().OnLoss();
     }

@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 23573991573299632}
   m_Layer: 0
   m_Name: WheelRearRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 137481193665042812}
   m_Layer: 0
   m_Name: Civil01_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 23547649761272698}
   m_Layer: 0
   m_Name: BrakeFrontLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 23250675641577602}
   m_Layer: 0
   m_Name: PlateBackTypeUSA_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 23436701573566400}
   m_Layer: 0
   m_Name: FogLight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 23065957595497440}
   m_Layer: 0
   m_Name: ReverseLight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 23619673390431376}
   m_Layer: 0
   m_Name: BrakeRearLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 23469685179902918}
   m_Layer: 0
   m_Name: Paint_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -678,7 +678,7 @@ GameObject:
   - component: {fileID: 23235618452015064}
   m_Layer: 0
   m_Name: TurnSignalRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 23687826471701922}
   m_Layer: 0
   m_Name: PlateBackTypeEU_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 23672136787119802}
   m_Layer: 0
   m_Name: DayTimeLight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 23758972031463574}
   m_Layer: 0
   m_Name: BrakeFrontLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 23426858808764380}
   m_Layer: 0
   m_Name: WipersRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 23970578816778194}
   m_Layer: 0
   m_Name: WheelFrontRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -893,7 +893,7 @@ GameObject:
   - component: {fileID: 23598461544015402}
   m_Layer: 0
   m_Name: BrakeLights_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 23941724307883232}
   m_Layer: 0
   m_Name: BrakeFrontRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 23895677139429834}
   m_Layer: 0
   m_Name: PlateFrontTypeEU_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1185,7 +1185,7 @@ GameObject:
   - component: {fileID: 23871670701888116}
   m_Layer: 0
   m_Name: Interior_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1202,6 +1202,24 @@ GameObject:
   m_Layer: 0
   m_Name: collider4
   m_TagString: Distraction
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1374633371042062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4941035008048512}
+  - component: {fileID: 33394752684376000}
+  - component: {fileID: 23424169189661496}
+  - component: {fileID: 65111094033846754}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1250,7 +1268,7 @@ GameObject:
   - component: {fileID: 23739850434732730}
   m_Layer: 0
   m_Name: TurnSignalRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1299,7 +1317,7 @@ GameObject:
   - component: {fileID: 23967564877996432}
   m_Layer: 0
   m_Name: Body_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1334,7 +1352,7 @@ GameObject:
   - component: {fileID: 23678432292965070}
   m_Layer: 0
   m_Name: SteeringWheel_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1401,7 +1419,7 @@ GameObject:
   - component: {fileID: 23786389717113146}
   m_Layer: 0
   m_Name: WipersLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1418,7 +1436,7 @@ GameObject:
   - component: {fileID: 23770450156619302}
   m_Layer: 0
   m_Name: Body_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1435,7 +1453,7 @@ GameObject:
   - component: {fileID: 23407858259083186}
   m_Layer: 0
   m_Name: PlateBackTypeEU_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1453,7 +1471,7 @@ GameObject:
   - component: {fileID: 64380888625885366}
   m_Layer: 0
   m_Name: CivilianVehicle05_Col
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1534,7 +1552,7 @@ GameObject:
   - component: {fileID: 23104062232137812}
   m_Layer: 0
   m_Name: WheelRearLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1551,7 +1569,7 @@ GameObject:
   - component: {fileID: 23605870363210134}
   m_Layer: 0
   m_Name: PlateBackTypeUSA_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1600,7 +1618,7 @@ GameObject:
   - component: {fileID: 23906831442795260}
   m_Layer: 0
   m_Name: Interior_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1664,7 +1682,7 @@ GameObject:
   - component: {fileID: 23274605312290358}
   m_Layer: 0
   m_Name: MainLight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1681,7 +1699,7 @@ GameObject:
   - component: {fileID: 23490067677162348}
   m_Layer: 0
   m_Name: TurnSignalLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1698,7 +1716,7 @@ GameObject:
   - component: {fileID: 23566709714282052}
   m_Layer: 0
   m_Name: WheelFrontLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1731,7 +1749,7 @@ GameObject:
   - component: {fileID: 137079816391399328}
   m_Layer: 0
   m_Name: Civil01_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1833,7 +1851,7 @@ GameObject:
   - component: {fileID: 23533958072609416}
   m_Layer: 0
   m_Name: BrakeRearRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1850,7 +1868,7 @@ GameObject:
   - component: {fileID: 23960167077172646}
   m_Layer: 0
   m_Name: SteeringWheel_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1884,7 +1902,7 @@ GameObject:
   - component: {fileID: 23163577530351042}
   m_Layer: 0
   m_Name: MainLight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1916,7 +1934,7 @@ GameObject:
   - component: {fileID: 23853903467368056}
   m_Layer: 0
   m_Name: PlateFrontTypeUSA_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1948,7 +1966,7 @@ GameObject:
   - component: {fileID: 23383489968538262}
   m_Layer: 0
   m_Name: WheelRearRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1983,7 +2001,7 @@ GameObject:
   - component: {fileID: 23878013713556426}
   m_Layer: 0
   m_Name: ReverseLight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2017,7 +2035,7 @@ GameObject:
   - component: {fileID: 23448876403058114}
   m_Layer: 0
   m_Name: TurnSignalLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2034,7 +2052,7 @@ GameObject:
   - component: {fileID: 23572184611529766}
   m_Layer: 0
   m_Name: BrakeFrontRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2051,7 +2069,7 @@ GameObject:
   - component: {fileID: 23388804883444386}
   m_Layer: 0
   m_Name: WheelFrontRight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2150,7 +2168,7 @@ GameObject:
   - component: {fileID: 23089791018827734}
   m_Layer: 0
   m_Name: PlateFrontTypeUSA_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2167,7 +2185,7 @@ GameObject:
   - component: {fileID: 23122578756446108}
   m_Layer: 0
   m_Name: RearSideLight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2216,7 +2234,7 @@ GameObject:
   - component: {fileID: 23931435962257890}
   m_Layer: 0
   m_Name: WipersRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2281,7 +2299,7 @@ GameObject:
   - component: {fileID: 23173630774201234}
   m_Layer: 0
   m_Name: BrakeLights_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2298,7 +2316,7 @@ GameObject:
   - component: {fileID: 23243573030141344}
   m_Layer: 0
   m_Name: WipersLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2315,7 +2333,7 @@ GameObject:
   - component: {fileID: 23828206556407570}
   m_Layer: 0
   m_Name: RearSideLight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2347,7 +2365,7 @@ GameObject:
   - component: {fileID: 23055757653190212}
   m_Layer: 0
   m_Name: FogLight_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2429,7 +2447,7 @@ GameObject:
   - component: {fileID: 23258732959989856}
   m_Layer: 0
   m_Name: Windows_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2478,7 +2496,7 @@ GameObject:
   - component: {fileID: 23793719715998504}
   m_Layer: 0
   m_Name: WheelRearLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2531,7 +2549,7 @@ GameObject:
   - component: {fileID: 23990124538499852}
   m_Layer: 0
   m_Name: DayTimeLight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2582,7 +2600,7 @@ GameObject:
   - component: {fileID: 23879579975701470}
   m_Layer: 0
   m_Name: BrakeRearLeft_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,7 +2648,7 @@ GameObject:
   - component: {fileID: 23415275592465806}
   m_Layer: 0
   m_Name: WheelFrontLeft_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2789,7 +2807,7 @@ GameObject:
   - component: {fileID: 23544497227195904}
   m_Layer: 0
   m_Name: BrakeRearRight_LOD0
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2869,7 +2887,7 @@ GameObject:
   - component: {fileID: 23399118795621542}
   m_Layer: 0
   m_Name: PlateFrontTypeEU_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2902,7 +2920,7 @@ GameObject:
   - component: {fileID: 4410580941610508}
   m_Layer: 0
   m_Name: Footsteps
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2951,7 +2969,7 @@ GameObject:
   - component: {fileID: 23003189993219150}
   m_Layer: 0
   m_Name: Paint_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3081,7 +3099,7 @@ GameObject:
   - component: {fileID: 23462262291568014}
   m_Layer: 0
   m_Name: Windows_LOD2
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3135,6 +3153,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1976265212820810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4565825854215874}
+  - component: {fileID: 33620179580658996}
+  - component: {fileID: 23175400914201192}
+  - component: {fileID: 65608245663996110}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1977105115460408
 GameObject:
   m_ObjectHideFlags: 1
@@ -3145,7 +3181,7 @@ GameObject:
   - component: {fileID: 4363426176677134}
   m_Layer: 0
   m_Name: SteeringWheel
-  m_TagString: Untagged
+  m_TagString: Distraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4997,6 +5033,19 @@ Transform:
   m_Father: {fileID: 4240817820172650}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4565825854215874
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976265212820810}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 9.9, y: 48.189987, z: 0}
+  m_LocalScale: {x: 2.5, y: 4, z: 23.000011}
+  m_Children: []
+  m_Father: {fileID: 4820331685029316}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4585377653879196
 Transform:
   m_ObjectHideFlags: 1
@@ -5495,6 +5544,8 @@ Transform:
   - {fileID: 4616265565788630}
   - {fileID: 224425291607267862}
   - {fileID: 224164614345654138}
+  - {fileID: 4941035008048512}
+  - {fileID: 4565825854215874}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5734,6 +5785,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4500288013502756}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4941035008048512
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374633371042062}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -10.2, y: 48.40999, z: 0}
+  m_LocalScale: {x: 2.5, y: 4, z: 23.000021}
+  m_Children: []
+  m_Father: {fileID: 4820331685029316}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4949419681846446
 Transform:
@@ -6538,6 +6602,41 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: ec8c31228f9327d4ba615ec92ef78b85, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23175400914201192
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976265212820810}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7741,6 +7840,41 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: f6f5490d7ede35e4b915e0efacf366b0, type: 2}
   - {fileID: 2100000, guid: b4570584714313049bc8db70252762a8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23424169189661496
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374633371042062}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10329,6 +10463,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1055074415253518}
   m_Mesh: {fileID: 4300002, guid: f0783dff9be367d46b12b1755fc86c6c, type: 3}
+--- !u!33 &33394752684376000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374633371042062}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33401110540359078
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -10490,6 +10631,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215875408663484}
   m_Mesh: {fileID: 4300132, guid: f0783dff9be367d46b12b1755fc86c6c, type: 3}
+--- !u!33 &33620179580658996
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976265212820810}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33621721134842016
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -10921,6 +11069,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65111094033846754
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374633371042062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65145910649243390
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -11095,6 +11255,18 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1211702552479306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65608245663996110
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976265212820810}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
